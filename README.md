@@ -1,7 +1,14 @@
 ***********************************************************
 # Author Daniel Cortes Vaca, Desarrollador Web full stack
 ***********************************************************
-# Proyecto creado con php puro, css3, ajax, jquery, boostrap 5.2, APIREST FULL creada por mi, mysql con funciones y store procedures
+# Proyecto creado con estas tecnlogias
+* php puro 
+* css3 
+* ajax 
+* jquery 
+* boostrap 5.2
+* APIREST FULL en php
+* mysql con funciones y store procedures
 
 # Funciones 
 
