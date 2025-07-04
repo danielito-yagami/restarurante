@@ -1,0 +1,390 @@
+/*
+Fuentes personalizadas 
+
+*/
+
+
+@font-face {
+    font-family: "ExtraDays";
+    src: url("../fonts/Extra\ Days.otf");
+}
+
+@font-face {
+    font-family: "Hachimaki";
+    src: url("../fonts/hHachimaki.ttf");
+}
+
+
+@font-face {
+    font-family: "Madfool";
+    src: url("../fonts/Madfool.ttf");
+}
+
+
+@font-face {
+    font-family: "hangover";
+    src: url("../fonts/Hangover.otf");
+}
+
+
+
+.f_Hachimaki{
+
+
+font-family:"Hachimaki";
+
+}
+
+.f_hangover{
+
+
+    font-family:"hangover";
+    
+}
+
+.f_Extradays{
+
+
+    font-family:"Extradays";
+    
+}
+
+.f_Madfool{
+
+
+    font-family:"Madfool";
+    
+}
+
+.white{
+
+
+color: white;
+
+
+}
+
+
+.black{
+
+
+
+    color: black;
+}
+
+
+
+.blue{
+
+
+
+    color: blue;
+}
+
+
+.green{
+
+
+    color:green;
+
+}
+
+
+.red{
+
+
+
+    color: red;
+
+}
+
+.redondo{
+
+
+    border-radius: 40px;
+}
+
+.sombra{
+
+
+    box-shadow: 2px 3px 4px black;
+}
+
+.sombraTexto{
+
+
+
+    text-shadow: 3px 2px 1px black;
+}
+
+.l_EEg{
+
+    font-size: 120px;
+
+
+}
+
+.l_Egr{
+
+    font-size: 80px;
+
+
+}
+
+
+.l_Grd{
+
+
+font-size: 30px;
+
+
+}
+
+.l_Med{
+
+
+    font-size: 20px;
+    
+    
+}
+
+.l_Pen{
+
+
+        font-size: 15px;        
+}
+
+.iconosX {
+
+text-decoration: none;
+color: black;
+
+}
+
+.banner-text{
+
+position: absolute;
+top: 20%;
+
+
+
+
+
+}
+
+.banner-img{
+
+display: block;
+position: relative;
+background: url("../img/amburger.png");
+background-repeat: no-repeat;
+height: 450px;
+width: 100%;
+background-size: cover;
+}
+
+.noMod{
+
+
+resize: none;
+
+
+}
+
+.menuX{
+
+
+    color: rgb(255, 255, 255);
+    transition: box-shadow 0.5s, font-size 1s, font-family 2s;
+
+
+}
+
+.menuX:hover{
+
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.856);
+    font-family:"ExtraDays";
+    font-size: 20px;
+
+}
+
+.imgIcono {
+
+
+    transition: transform 1s, box-shadow 2s;
+
+
+}
+
+.imgIcono:hover{
+
+
+    transform: scale(1.2,1.2);
+    box-shadow: 2px 3px 2px 5px rgba(247, 245, 245, 0.281);
+    z-index: 1;
+}
+
+
+/*
+Para hacer la animacion del boton 
+*/
+
+.botonX::after{
+position: absolute;
+content: "";
+height: 20px;
+width: 20px;
+border-radius: 2px;
+background-color: rgb(255, 6, 6);
+margin: 10px;
+animation: 4s infinite boton;
+}
+
+@keyframes boton {
+    
+0%{
+
+    transform:translate(-60px,20px) scale(30.20,0.5);
+}
+
+100%{
+
+
+    transform:translate(-60px,20px)  scale(1,0.5)
+
+}
+}
+
+.animacion{
+
+  
+    -webkit-animation: kenburns-top 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+    animation: kenburns-top 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) reverse both;
+
+
+
+}
+
+
+#fondo{
+
+
+
+    background-image: url("../../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
+
+#chefFoto:hover{
+
+
+  transform: scale(2,2);
+
+  border: black 5px;
+  border-radius: 2px;
+  transition: transform 1s;
+  
+
+
+}
+
+
+#barra {
+
+
+position: fixed;
+z-index: 2;
+}
+
+#ei{
+
+    display: none;
+}
+
+
+.animacion2{
+
+
+    -webkit-animation: tracking-in-expand 2.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 2.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+
+
+@-webkit-keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.25) translateY(-15px);
+              transform: scale(1.25) translateY(-15px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  
