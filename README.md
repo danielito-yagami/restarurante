@@ -25,4 +25,26 @@ Diseño responsivo con Boostrap 5
 https://daxdev.helioho.st/Restaurante/
 
 
+# Probando la APIREST FULL
+
+para probar los endpoints se puede usar postman o cualquier herramienta de prueba de APIREST.
+
+ejemplos reales de esta API REST puedes verlos en el codigo de Github solo cambia la liga porque ya esta en un servidor online 
+
+* Todas la comidas del menu 
+
+GET https://daxdev.helioho.st/Restaurante/apiREST/menus.php?API=1
+
+* Consultar todos los banners
+
+GET https://daxdev.helioho.st/Restaurante/apiREST/controlador.php?op=6
+
+* Consultar todas la preguntas de los usuarios 
+
+GET https://daxdev.helioho.st/Restaurante/apiREST/mensajes.php?API=A
+
+* Consultar todos los testimonios de los usuarios 
+
+GET https://daxdev.helioho.st/Restaurante/apiREST/testimonios.php?API=A
+
 
