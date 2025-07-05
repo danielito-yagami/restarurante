@@ -27,9 +27,9 @@ https://daxdev.helioho.st/Restaurante/
 
 # Probando la APIREST FULL
 
-para probar los endpoints se puede usar postman o cualquier herramienta de prueba de APIREST.
+Para probar los endpoints se puede usar postman o cualquier herramienta de prueba de APIREST.
 
-ejemplos reales de esta API REST puedes verlos en el codigo de Github solo cambia la liga porque ya esta en un servidor online 
+Ejemplos reales de esta API REST puedes verlos en el codigo de Github, en el codigo estan las url locales yo pongo las url del servidor para que se puedan probar con postman u otra herramienta.
 
 * Todas la comidas del menu 
 
