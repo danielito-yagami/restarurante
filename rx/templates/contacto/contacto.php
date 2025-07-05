@@ -6,7 +6,7 @@
 <p class="text-center l_Med white">Estamos para servirte</p>
 
 
-<form action="?" method="post">
+<form id="pregunta" action="?" method="post">
 <div class="d-flex">
 
 <div class="col-5 col-md-4 offset-md-1">
@@ -25,7 +25,7 @@
 <div class="d-flex">
 <div class="col-10 col-md-8 mt-3 offset-md-1">
 
-<textarea class="noMod form-control" name="mensaje" id="mensajex" cols="30" rows="3"placeholder="Escribe tu mensaje"></textarea>
+<textarea class="noMod form-control" name="mensaje" id="mensajex" cols="30" rows="3"placeholder="Escribe tu mensaje" REQUIRED></textarea>
 <br><br>
 </div>
 

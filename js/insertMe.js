@@ -3,7 +3,7 @@
 //usando el boton 
 
 
-$("#btnC").on('click',(e)=>{
+$("#pregunta").on('submit',(e)=>{
 
 e.preventDefault()
 

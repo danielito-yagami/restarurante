@@ -65,7 +65,7 @@
             <div class="col-6">
 
 
-            <button id="link" class="btn btn-primary">Volver al sitio</button>
+            <button id="link" type="button" class="btn btn-primary">Volver al sitio</button>
 
             </div>
 
@@ -132,7 +132,9 @@
 
         })
 
+        //Para que al dar enter no se ejecute el regresar a la pagina sino login 
 
+        
 
         </script>
 

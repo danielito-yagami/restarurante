@@ -9,6 +9,7 @@ $("#comentarios").css({"display":"none"})
 $("#ocultar").on('click',function(){
 
 $("#mensajeInicio").css({"display":"none"})
+$("#banner").css({"display":"block"})
 })
 
 
