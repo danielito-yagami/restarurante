@@ -51,6 +51,9 @@ class="navbar-toggler-icon"></span></button>
             <a class="nav-link menuX" href="#horario">Horario</a>
         </li>
 
+          <li class="nav-item">
+            <a class="nav-link menuX" href="https://github.com/danielito-yagami/restarurante?tab=readme-ov-file">Acerca de</a>
+        </li>
 
     </ul>
 
