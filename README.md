@@ -12,8 +12,8 @@
 
 # Funciones 
 
-Es un sitio web para restaurante, que permite definir el menu de comida precios, horarios, mostrar un poco del restaurante
-manejar opiniones de los clientes, ver comentarios y tienes roles de uso.
+Es un sitio web para restaurante, que permite definir el menu de comida precios, horarios, personalizacion de la pagina web
+como banners, manejar opiniones de los clientes, ver comentarios y tienes roles de uso.
 
 Operaciones CRUD, con comida
 Operaciones CRUD con chefs, 
